@@ -109,7 +109,7 @@ body {
 }
 
 .main-content h1 {
-    font-size: 20px;
+    font-size: 19px;
     color: hsl(0, 0%, 100%);
 }
 
@@ -130,8 +130,11 @@ img {
 }
 
 h2{
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
+    font-family: 'Impact', 'Robotto Black', 'Montserrat', sans-serif;
+    position: relative;
+    left: 50px;
+    right: 50px;
+    font-size: 75px;
 }
 
 .card-container {
