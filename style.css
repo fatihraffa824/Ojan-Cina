@@ -37,11 +37,13 @@ body {
 .navbar ul li {
     position: relative;
     margin: 0 15px;
+    max-width: fit-content;
 }
 
 .navbar ul li a {
     text-decoration: none;
     color: white;
+    max-width: fit-content;
     padding: 10px 20px;
     display: block;
     font-weight: 600;
@@ -126,24 +128,25 @@ img {
 
 /* button */
 .my-button {
-    background-color: #fc0000; /* Warna latar belakang */
-    color: rgb(255, 255, 255); /* Warna teks */
-    border: rgb(255, 255, 255); /* Menghilangkan border default */
-    padding: 24px 30px; /* Padding atas-bawah dan kiri-kanan */
-    text-align: center; /* Memusatkan teks */
-    text-decoration: none; /* Menghilangkan garis bawah */
-    display: inline-block; /* Membuat button sebaris */
-    font-size: 15px; /* Ukuran font */
-    margin: 12px 5px; /* Margin */
-    cursor: pointer; /* Pointer mouse saat hover */
-    border-radius: 4px; /* Sudut yang membulat */
-    transition: background-color 0.3s; /* Animasi saat hover */
+    
+        background-color: #ff4c4c; /* Red color */
+        color: white; /* White text */
+        padding: 15px 25px; /* Padding to adjust the size */
+        border: 2px solid white; /* White border */
+        border-radius: 5px; /* Rounded corners */
+        font-size: 16px; /* Text size */
+        font-weight: bold; /* Bold text */
+        text-align: center; /* Center the text */
+        text-transform: uppercase; /* Uppercase text */
+        cursor: pointer; /* Pointer cursor on hover */
+        transition: background-color 0.3s ease; /* Transition for hover effect */
 }
-
-.my-button:hover {
-    color: black;
-    background-color: #fafafa; /* Warna saat hover */
-}
+    
+    .my-button:hover:hover {
+        background-color: #fff9f9; /* Darker red on hover */
+        color: black;
+        border: 2px solid rgb(253, 132, 3);
+    }
 
 /* Agent styles */
 #Agen {
