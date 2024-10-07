@@ -108,16 +108,6 @@ body {
     text-align: center;
 }
 
-#niko {
-        background-color: #04AA6D; /* Green */
-        border: none;
-        color: white;
-        padding: 15px 32px;
-        text-align: center;
-        text-decoration: none;
-        display: inline-block;
-        font-size: 16px;
-}
 
 .main-content h1 {
     font-size: 19px;
@@ -132,6 +122,27 @@ body {
 img {
     width: 25%;
     height: auto;
+}
+
+/* button */
+.my-button {
+    background-color: #fc0000; /* Warna latar belakang */
+    color: rgb(255, 255, 255); /* Warna teks */
+    border: rgb(255, 255, 255); /* Menghilangkan border default */
+    padding: 24px 30px; /* Padding atas-bawah dan kiri-kanan */
+    text-align: center; /* Memusatkan teks */
+    text-decoration: none; /* Menghilangkan garis bawah */
+    display: inline-block; /* Membuat button sebaris */
+    font-size: 15px; /* Ukuran font */
+    margin: 12px 5px; /* Margin */
+    cursor: pointer; /* Pointer mouse saat hover */
+    border-radius: 4px; /* Sudut yang membulat */
+    transition: background-color 0.3s; /* Animasi saat hover */
+}
+
+.my-button:hover {
+    color: black;
+    background-color: #fafafa; /* Warna saat hover */
 }
 
 /* Agent styles */
