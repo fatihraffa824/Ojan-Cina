@@ -148,7 +148,7 @@ img {
         border: 2px solid rgb(253, 132, 3);
     }
 
-.Agen-button {
+.agen-button {
     
     background-color: #ff4c4c; /* Red color */
     color: white; /* White text */
@@ -165,7 +165,7 @@ img {
    display: -moz-stack;
 }
 
-.Agen-button:hover:hover {
+.agen-button:hover:hover {
     background-color: #fff9f9; /*Darker red on hover*/
     color: black;
     border: 2px solid rgb(253, 132, 3);
