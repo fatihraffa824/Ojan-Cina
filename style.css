@@ -150,10 +150,10 @@ img {
 
 .agen-button {
     
-    background-color: #ff4c4c; /* Red color */
+    background-color: #ff8400; /* Red color */
     color: white; /* White text */
     padding: 15px 25px; /* Padding to adjust the size */
-    border: 2px solid white; /* White border */
+    border: 2px solid rgb(179, 255, 0); /* White border */
     border-radius: 5px; /* Rounded corners */
     font-size: 16px; /* Text size */
     font-weight: bold; /* Bold text */
@@ -162,13 +162,13 @@ img {
     cursor: pointer; /* Pointer cursor on hover */
     transition: background-color 0.5s ease; /* Transition for hover effect */
    justify-items: center;/*biar tombol ke tengah */
-   display: -moz-stack;
+   display:-moz-grid;
 }
 
 .agen-button:hover:hover {
-    background-color: #fff9f9; /*Darker red on hover*/
-    color: black;
-    border: 2px solid rgb(253, 132, 3);
+    background-color: #f7f3f3; /*Darker red on hover*/
+    color: rgba(12, 11, 11, 0.927);
+    border: 2px solid rgb(253, 3, 3);
 }
 
 /* Agent styles */
